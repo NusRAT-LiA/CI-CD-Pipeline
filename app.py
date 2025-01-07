@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return {
-        'msg': 'Hello World!',
+        'msg': 'Hello World! New1',
         'app_version': '4'
     }
 
